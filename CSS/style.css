@@ -1,0 +1,6 @@
+body{
+background-color: aqua;}
+#accueil >h1{
+    background-color: rgb(104, 153, 51); 
+    color: rgb(249, 156, 156);
+}
