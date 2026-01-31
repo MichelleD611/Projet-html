@@ -2,34 +2,76 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <title>Personal brand - Portfolio</title>
-    <link rel="stylesheet" href="CSS/style.css">
+    <title>Admin Dashboard</title>
 </head>
 <body>
     <header>
+        <h2>Gestion des Étudiants</h2>
         <nav>
             <ul>
                 <li><a href="#accueil">Accueil</a></li>
-                <li><a href="#quijesuis">Qui je suis</a></li>
-                <li><a href="#cequejefais">Ce que je fais</a></li>
-                <li><a href="#pourquijelefais">Pour qui je le fais</a></li>
+                <li><a href="#etudiant">Étudiant</a></li>
+                <li><a href="#notes">Notes</a></li>
+                <li><a href="#rapport">Rapport</a></li>
             </ul>
-            <img src="photos/img.png" alt="image chic" height="600px" width="700px">
         </nav>
     </header>
     <main>
-        
-        <section id="accueil">
-            <h1>Accueil</h1>
-            <h3>Je vais vous présenter mon Personal brand.<br>Il contiendra mon Identité, mes Réalisations, et mes projets pour le futur</h3>
+        <section id="table">
+        <table>
+            <thead>
+                <tr>
+                    <th>Matricule</th>
+                    <th>Nom</th>
+                    <th>Filière</th>
+                    <th>Moyenne</th>
+                    <th>Statut</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>10078025</td>
+                    <td>DAVID Dulcina</td>
+                    <td>IG</td>
+                    <td>14,78</td>
+                    <td>Validé</td>
+                </tr>
+                <tr>
+                    <td>11236825</td>
+                    <td>MONGBO Elysée</td>
+                    <td>IG</td>
+                    <td>14,50</td>
+                    <td>Validé</td>
+                </tr>
+                <tr>
+                    <td>12479025</td>
+                    <td>ALLADAGBIN Paris</td>
+                    <td>IG</td>
+                    <td>14,79</td>
+                    <td>Validée</td>
+                </tr>
+                <tr>
+                    <td>13025425</td>
+                    <td>GBODJINOU Kelly</td>
+                    <td>IG</td>
+                    <td>13,58</td>
+                    <td>Validé</td>
+                </tr>
+                <tr>
+                    <td>10036025</td>
+                    <td>DOSSOU Quenum</td>
+                    <td>IG</td>
+                    <td>9,85</td>
+                    <td>Ajourné</td>
+                </tr>
+            </tbody>
+        </table>
         </section>
-        
-        <section id="quijesuis">
-            <h1>Qui je suis</h1>
-            <p>Je m'appelle Dulcina DAVID, âgée de 18 ans, je suis actuellement étudiante en informatique de gestion, en deuxième année de formation à l'ENEAM, située à Gbegamey.<br>Je suis une passionnée de tout ce qui a rapport avec le développement web et la créativité.</p>
+        <section id="total-etudiants">
+            <h3>Total étudiants : 5</h3>
+            <h3>Validé : 4<br>Ajourné : 1</h3>
         </section>
-        <section id="cequejefais"></section>
-        <section id="pourquijelefais"></section>
     </main>
+    <footer>&copy 2026-Admin Dashboard</footer>
 </body>
 </html>

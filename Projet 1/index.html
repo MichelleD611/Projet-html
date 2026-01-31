@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dove </title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>   
+    <header>
+        <div class="container">
+            <h1>Dove Nourishing Body</h1>
+             <p> Restoring-Beurre de coco & de cacao</p>   
+                <span class="product">NOUVEAU</span>
+        </div> 
+    </header>
+    <main>
+        <section class="product-information">
+            <div class="main-content">
+              <div class="product-image">
+                <img src="dove.jpg" alt="Dove Nourishing Body">
+                </div>
+                <div class="product-info">
+                    <h2>  A propos du produit</h2>
+                     <p>
+                    C'est un gel douche (nettoyant corporel) conçu non seulement pour nettoyer la peau, 
+                    mais surtout pour la <strong>restaurer et l'hydrater en profondeur</strong>. Contrairement 
+                    aux savons classiques qui peuvent assécher, celui-ci agit comme un soin hydratant sous la douche.
+                  </p>
+                  <h3>Description</h3>
+                  <p>
+                    Ce produit fait partie de la gamme "Nourishing" de Dove. Il utilise la technologie 
+                    <strong>Moisture Renew Blend</strong>, qui aide la peau à retenir son hydratation naturelle. 
+                    Sa texture est crémeuse et riche, avec un parfum gourmand et réconfortant de coco et de cacao.
+                   </p>
+                  <h3>À qui s'adresse-t-il ?</h3>
+                 <ul class="benefits">
+                    <li>Les personnes ayant la peau sèche ou terne</li>
+                    <li>Ceux qui cherchent un moment de détente sensorielle</li>
+                    <li>Toute la famille (testé par des dermatologues)</li>
+                 </ul>
+                  <div class="price-section">
+                    <h3> Prix selon la région</h3>
+                    <ul class="price-list">
+                        <li> Europe : 8,00 € - 12,00 €</li>
+                        <li> Amérique du Nord : 9,00 $ - 13,00 $</li>
+                        <li> Afrique : 6 000 - 9 000 FCFA</li>
+                    </ul>
+                  </div> 
+                </div>
+            </div>
+        </section>
+        <div class="order-form">
+            <h2> Commandez maintenant</h2>
+            <form id="orderForm" onsubmit="handleSubmit(event)">
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="firstName">Prénom *</label>
+                        <input type="text" id="firstName" name="firstName" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="lastName">Nom *</label>
+                        <input type="text" id="lastName" name="lastName" required>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email *</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="phone">Téléphone *</label>
+                    <input type="tel" id="phone" name="phone" required>
+                </div>
+
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="country">Pays *</label>
+                        <select id="country" name="country" required>
+                            <option value="">Sélectionnez votre pays</option>
+                            <option value="france">France</option>
+                            <option value="belgique">Belgique</option>
+                            <option value="usa">États-Unis</option>
+                            <option value="senegal">Sénégal</option>
+                            <option value="cote-ivoire">Côte d'Ivoire</option>
+                            <option value="Benin">Bénin</option>
+                            <option value="autre">Autre</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="quantity">Quantité *</label>
+                        <select id="quantity" name="quantity" required>
+                            <option value="1">1 bouteille</option>
+                            <option value="2">2 bouteilles</option>
+                            <option value="3">3 bouteilles</option>
+                            <option value="4">4 bouteilles</option>
+                            <option value="5">5 bouteilles ou plus</option>
+                        </select>
+                    </div>
+                 
+                 <div class="form-group">
+                      <label for="comments">Commentaires (optionnel)</label>
+                     <textarea id="comments" name="comments" rows="3" 
+                              placeholder="Avez-vous des instructions spéciales ?"></textarea>
+                  </div>            
+                </div>
+
+                <button type="submit" class="submit-btn"> Commander maintenant</button>
+            </form>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2026 Dove - Tous droits réservés</p>
+        <p>Produit testé dermatologiquement | Sans sulfates | Pour toute la famille</p>
+    </footer>
+
+
+
+
+    </main>         
+    
+    
+    
+    
+        
+      
+</html> 
